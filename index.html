@@ -14,38 +14,241 @@
 		<title>Nathan Bui's Porforlio</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+		<nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark">
 			<div class="container">
-					<a class="navbar-brand" href="#">Navbar</a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNav"
-						aria-controls="navbarNav"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav fs-5">
-							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#">About</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Projects</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Resume</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
-							</li>
-						</ul>
+				<a class="navbar-brand" href="#cover-page">Nathan Bui</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav fs-5">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#work">Work</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#project">Project</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</nav>
+		<div class="container">
+			<div class="row section" id="cover-page">
+				<img
+					class="img-fluid col-8 d-block"
+					src="./images/cover.jpg"
+					alt="me playing violin in a church"
+				/>
+				<div class="col-4">
+					<p>This is a test</p>
+					<button>This is a button</button>
+					<img src="./images/1st.PNG" class="img-fluid d-block" alt="" />
+				</div>
+			</div>
+
+			<div class="section text-center" id="about">
+				<hr />
+				<h2>About Me</h2>
+				<hr />
+				<p>Nathan Bui</p>
+				<p>
+					My Vietnamese name is Hữu Trí Bùi, but you guys can call me Nathan. I
+					am currently studying Computer Science at Portland State University.
+					I've already have a bachelor's degree when I was in Vietnam in
+					architecture field, however, when I come to the US, I have a passion
+					of coding, then I decided to take another shot for this major. I'm
+					currently having an internship at Intel where I work end-to-end for
+					their web-application.
+				</p>
+			</div>
+			<img
+				src="./images/about.jpg"
+				class="img-fluid d-block"
+				alt="me and my wife standing next to a colorful truck"
+			/>
+			<div class="section" id="work">
+				<hr />
+				<h2 class="text-center">Education & Experience</h2>
+				<hr />
+
+				<h3 class="text-center">Education</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<h4>Portland State University</h4>
+						<ul>
+							<li><b>2019 - now</b></li>
+							<li><b>Status:</b> Graduated</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<h4>University of Architecture - Ho Chi Minh City</h4>
+						<ul>
+							<li><b>2013 - 2018</b></li>
+							<li><b>Status:</b> Undergrad</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<h3 class="text-center">Experience</h3>
+					<div class="col-12 col-md-6">
+						<h4>Intel Corporation</h4>
+						<ul>
+							<li><b>05/02/2022 – Present</b></li>
+							<li><b>Position:</b> Internship</li>
+							<li>
+								<b>Description:</b>
+								<ul>
+									<li>
+										Worked on front-end and back-end to build a self-serviceable
+										tool (Web interface) that allows internal and external users
+										to run workloads by uploading their docker containers and
+										configurations.
+									</li>
+									<li>
+										Created, deployed unit and regression tests for the system
+										to maintain the app's stability.
+									</li>
+								</ul>
+							</li>
+						</ul>
+
+						<h4>Academic Project</h4>
+						<ul>
+							<li><b>01/02/2022 – 03/18/2022</b></li>
+							<li><b>Position:</b> Developer</li>
+							<li>
+								<b>Description:</b>
+								<ul>
+									<li>
+										Created and developed an application that operates on web
+										browsers and allows users to interact with each other in
+										real time. The application also has the login/register
+										interface to increase the security of the system.
+									</li>
+									<li>
+										Developed RESTful API webservices using NodeJS, Express as
+										the back-end and React as the front-end.
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-6">
+						<h4>Thuy Duong Musical School</h4>
+						<ul>
+							<li><b>01/01/2017 – 03/01/2019</b></li>
+							<li><b>Position:</b> Teacher</li>
+							<li>
+								<b>Description:</b>
+								<ul>
+									<li>
+										Working with other violin’s musicians to create a suitable
+										program to maintain the high-quality teaching.
+									</li>
+									<li>
+										Teaching violin for beginners and juniors with classic
+										curriculum.
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<h4>Sophia's Nails Salon</h4>
+						<ul>
+							<li><b>05/01/2019 – 03/01/2021</b></li>
+							<li><b>Position:</b> Manager</li>
+							<li>
+								<b>Description:</b>
+								<ul>
+									<li>
+										Providing high-quality customer, both in person and remotely
+										via our Customer Service Channel.
+									</li>
+									<li>
+										Preparing monthly reports that capture expenses and spending
+										in a systematic and effective way that enables reusability
+										and easy maintenance.
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="section" id="project">
+				<hr />
+				<h2>Projects</h2>
+				<hr />
+				<div id="projectCarousel" class="carousel slide" data-bs-touch="false">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+                            <a href="https://github.com/NathanBuiPDX/CS410-Final-Project" target="_blank">
+                                <img
+                                    src="./images/chat-app.jpg"
+                                    class="d-block w-100"
+                                    alt="instance web chat application from huu-tri bui"
+                                />
+
+                            </a>
+							<div class="carousel-caption d-none d-md-block text-dark">
+								<h3>Instance Chat Application</h3>
+								<p>
+									An application that operates on web browsers and allows users to interact with each other in real time
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+                            <a href="https://github.com/NathanBuiPDX/CS410-Final-Project" target="_blank">
+                                <img
+                                    src="./images/porfolio-picture.jpeg"
+                                    class="d-block w-100"
+                                    alt="porfolio web page from huu-tri bui"
+                                />
+                            </a>
+							<div class="carousel-caption d-none d-md-block text-dark">
+								<h3>Porforlio Web Page</h3>
+								<p>
+									Modern porfolio/resume deployed to the internet.
+								</p>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#projectCarousel"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#projectCarousel"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</div>
 	</body>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

@@ -1,9 +1,6 @@
-/* .custom-navBar{
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    height: 4em;
-} */
+h2{
+    text-align: center;
+}
+.section {
+    padding-top: 5rem;
+}
