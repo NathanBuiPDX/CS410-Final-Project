@@ -1,6 +1,30 @@
-h2{
-    text-align: center;
+html {
+    font-size: 1.2em;
 }
+h2, h3{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form {
+    width: 400px;
+}
+
 .section {
     padding-top: 5rem;
+}
+
+.border-right {
+    border-right: 1px solid rgba(128, 128, 128, 0.489);
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+    form {
+    width: 700px;
+    }
+    .border-right {
+    visibility: visible;
+}
 }

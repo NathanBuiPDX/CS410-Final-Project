@@ -14,245 +14,400 @@
 		<title>Nathan Bui's Porforlio</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark">
+		<main>
+			<nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark">
+				<div class="container">
+					<a class="navbar-brand" href="#cover-page">Nathan Bui</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav fs-5">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#work">Work</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#project">Project</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 			<div class="container">
-				<a class="navbar-brand" href="#cover-page">Nathan Bui</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNav"
-					aria-controls="navbarNav"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav fs-5">
-						<li class="nav-item">
-							<a class="nav-link" aria-current="page" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#work">Work</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#project">Project</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
+				<div class="row section" id="cover-page">
+                    <div class="col-md-8">
+                        <img
+                            class="img-fluid d-block cover-picture"
+                            src="./images/cover.jpg"
+                            alt="me playing violin in a church"
+                        />
+
+                    </div>
+					<div class="col-md-4 d-flex flex-column justify-content-center text-center">
+						<hr />
+						<div class="mt-2">
+							<h2>NATHAN BUI</h2>
+							<p>Developer - Violinist</p>
+						</div>
+						<ul class="nav list-unstyled mx-auto mb-3">
+							<li class="ms-3">
+								<a
+									class="text-primary"
+									href="https://www.linkedin.com/in/huu-tri-bui-736253224/"
+									target="_blank"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="25"
+										height="25"
+										fill="currentColor"
+										class="bi bi-linkedin"
+										viewBox="0 0 16 16"
+										alt="LinkedIn icon"
+									>
+										<path
+											d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+										/>
+									</svg>
+								</a>
+							</li>
+							<li class="ms-3">
+								<a
+									class="text-primary"
+									href="https://github.com/NathanBuiPDX"
+									target="_blank"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="25"
+										height="25"
+										fill="currentColor"
+										class="bi bi-github"
+										viewBox="0 0 16 16"
+										alt="GitHub icon"
+									>
+										<path
+											d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+										/>
+									</svg>
+								</a>
+							</li>
+							<li class="ms-3">
+								<a
+									class="text-primary"
+									href="https://www.facebook.com/tri.buihuu.7"
+									target="_blank"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="25"
+										height="25"
+										fill="currentColor"
+										class="bi bi-facebook"
+										viewBox="0 0 16 16"
+										alt="Facebook icon"
+									>
+										<path
+											d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+										/>
+									</svg>
+								</a>
+							</li>
+						</ul>
+						<div>
+							<hr />
+							<h4>Career Objective</h4>
+							<p>
+								To become a successful expert in the field of Full-Stack by channelizing my technical knowledge and skills to
+								ensure personal and professional growth and to contribute to the
+								prosperity of the organization
+							</p>
+						</div>
+
+					</div>
 				</div>
-			</div>
-		</nav>
-		<div class="container">
-			<div class="row section" id="cover-page">
+
+				<div class="section text-center" id="about">
+					<hr />
+					<h2>About Me</h2>
+					<hr />
+					<p>
+						Hi, My name is Nathan. I am currently studying Computer Science at
+						Portland State University. I've already have a bachelor's degree
+						when I was in Vietnam in architecture field, however, when I come to
+						the US, I have a passion of coding, then I decided to take another
+						shot for this major. I'm currently having an internship at Intel
+						where I work end-to-end for their web-application.
+					</p>
+				</div>
 				<img
-					class="img-fluid col-8 d-block"
-					src="./images/cover.jpg"
-					alt="me playing violin in a church"
+					src="./images/about.jpg"
+					class="img-fluid d-block"
+					alt="me and my wife standing next to a colorful truck"
 				/>
-				<div class="col-4">
-					<p>This is a test</p>
-					<button>This is a button</button>
-					<img src="./images/1st.PNG" class="img-fluid d-block" alt="" />
-				</div>
-			</div>
+				<div class="section" id="work">
+					<hr />
+					<h2>Education & Experience</h2>
+					<hr />
 
-			<div class="section text-center" id="about">
-				<hr />
-				<h2>About Me</h2>
-				<hr />
-				<p>Nathan Bui</p>
-				<p>
-					My Vietnamese name is Hữu Trí Bùi, but you guys can call me Nathan. I
-					am currently studying Computer Science at Portland State University.
-					I've already have a bachelor's degree when I was in Vietnam in
-					architecture field, however, when I come to the US, I have a passion
-					of coding, then I decided to take another shot for this major. I'm
-					currently having an internship at Intel where I work end-to-end for
-					their web-application.
-				</p>
-			</div>
-			<img
-				src="./images/about.jpg"
-				class="img-fluid d-block"
-				alt="me and my wife standing next to a colorful truck"
-			/>
-			<div class="section" id="work">
-				<hr />
-				<h2 class="text-center">Education & Experience</h2>
-				<hr />
-
-				<h3 class="text-center">Education</h3>
-				<div class="row">
-					<div class="col-md-6">
-						<h4>Portland State University</h4>
-						<ul>
-							<li><b>2019 - now</b></li>
-							<li><b>Status:</b> Graduated</li>
-						</ul>
-					</div>
-					<div class="col-md-6">
-						<h4>University of Architecture - Ho Chi Minh City</h4>
-						<ul>
-							<li><b>2013 - 2018</b></li>
-							<li><b>Status:</b> Undergrad</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="row">
-					<h3 class="text-center">Experience</h3>
-					<div class="col-12 col-md-6">
-						<h4>Intel Corporation</h4>
-						<ul>
-							<li><b>05/02/2022 – Present</b></li>
-							<li><b>Position:</b> Internship</li>
-							<li>
-								<b>Description:</b>
-								<ul>
-									<li>
-										Worked on front-end and back-end to build a self-serviceable
-										tool (Web interface) that allows internal and external users
-										to run workloads by uploading their docker containers and
-										configurations.
-									</li>
-									<li>
-										Created, deployed unit and regression tests for the system
-										to maintain the app's stability.
-									</li>
-								</ul>
-							</li>
-						</ul>
-
-						<h4>Academic Project</h4>
-						<ul>
-							<li><b>01/02/2022 – 03/18/2022</b></li>
-							<li><b>Position:</b> Developer</li>
-							<li>
-								<b>Description:</b>
-								<ul>
-									<li>
-										Created and developed an application that operates on web
-										browsers and allows users to interact with each other in
-										real time. The application also has the login/register
-										interface to increase the security of the system.
-									</li>
-									<li>
-										Developed RESTful API webservices using NodeJS, Express as
-										the back-end and React as the front-end.
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="col-12 col-md-6">
-						<h4>Thuy Duong Musical School</h4>
-						<ul>
-							<li><b>01/01/2017 – 03/01/2019</b></li>
-							<li><b>Position:</b> Teacher</li>
-							<li>
-								<b>Description:</b>
-								<ul>
-									<li>
-										Working with other violin’s musicians to create a suitable
-										program to maintain the high-quality teaching.
-									</li>
-									<li>
-										Teaching violin for beginners and juniors with classic
-										curriculum.
-									</li>
-								</ul>
-							</li>
-						</ul>
-						<h4>Sophia's Nails Salon</h4>
-						<ul>
-							<li><b>05/01/2019 – 03/01/2021</b></li>
-							<li><b>Position:</b> Manager</li>
-							<li>
-								<b>Description:</b>
-								<ul>
-									<li>
-										Providing high-quality customer, both in person and remotely
-										via our Customer Service Channel.
-									</li>
-									<li>
-										Preparing monthly reports that capture expenses and spending
-										in a systematic and effective way that enables reusability
-										and easy maintenance.
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="section" id="project">
-				<hr />
-				<h2>Projects</h2>
-				<hr />
-				<div id="projectCarousel" class="carousel slide" data-bs-touch="false">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-                            <a href="https://github.com/NathanBuiPDX/CS410-Final-Project" target="_blank">
-                                <img
-                                    src="./images/chat-app.jpg"
-                                    class="d-block w-100"
-                                    alt="instance web chat application from huu-tri bui"
-                                />
-
-                            </a>
-							<div class="carousel-caption d-none d-md-block text-dark">
-								<h3>Instance Chat Application</h3>
-								<p>
-									An application that operates on web browsers and allows users to interact with each other in real time
-								</p>
-							</div>
+					<h3>Education</h3>
+					<div class="row">
+						<div class="col-md-6 border-right">
+							<h4>Portland State University</h4>
+							<ul>
+								<li><b>2019 - now</b></li>
+								<li><b>Status:</b> Graduated</li>
+							</ul>
 						</div>
-						<div class="carousel-item">
-                            <a href="https://github.com/NathanBuiPDX/CS410-Final-Project" target="_blank">
-                                <img
-                                    src="./images/porfolio-picture.jpeg"
-                                    class="d-block w-100"
-                                    alt="porfolio web page from huu-tri bui"
-                                />
-                            </a>
-							<div class="carousel-caption d-none d-md-block text-dark">
-								<h3>Porforlio Web Page</h3>
-								<p>
-									Modern porfolio/resume deployed to the internet.
-								</p>
-							</div>
+						<div class="col-md-6">
+							<h4>University of Architecture - Ho Chi Minh City</h4>
+							<ul>
+								<li><b>2013 - 2018</b></li>
+								<li><b>Status:</b> Undergrad</li>
+							</ul>
 						</div>
 					</div>
-					<button
-						class="carousel-control-prev"
-						type="button"
-						data-bs-target="#projectCarousel"
-						data-bs-slide="prev"
+
+					<div class="row">
+						<h3 class="my-3">Experience</h3>
+						<div class="col-12 col-md-6 border-right">
+							<h4>Intel Corporation</h4>
+							<ul>
+								<li><b>05/02/2022 – Present</b></li>
+								<li><b>Position:</b> Internship</li>
+								<li>
+									<b>Description:</b>
+									<ul>
+										<li>
+											Worked on front-end and back-end to build a
+											self-serviceable tool (Web interface) that allows internal
+											and external users to run workloads by uploading their
+											docker containers and configurations.
+										</li>
+										<li>
+											Created, deployed unit and regression tests for the system
+											to maintain the app's stability.
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+							<h4>Academic Project</h4>
+							<ul>
+								<li><b>01/02/2022 – 03/18/2022</b></li>
+								<li><b>Position:</b> Developer</li>
+								<li>
+									<b>Description:</b>
+									<ul>
+										<li>
+											Created and developed an application that operates on web
+											browsers and allows users to interact with each other in
+											real time. The application also has the login/register
+											interface to increase the security of the system.
+										</li>
+										<li>
+											Developed RESTful API webservices using NodeJS, Express as
+											the back-end and React as the front-end.
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 col-md-6">
+							<h4>Thuy Duong Musical School</h4>
+							<ul>
+								<li><b>01/01/2017 – 03/01/2019</b></li>
+								<li><b>Position:</b> Teacher</li>
+								<li>
+									<b>Description:</b>
+									<ul>
+										<li>
+											Working with other violin’s musicians to create a suitable
+											program to maintain the high-quality teaching.
+										</li>
+										<li>
+											Teaching violin for beginners and juniors with classic
+											curriculum.
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4>Sophia's Nails Salon</h4>
+							<ul>
+								<li><b>05/01/2019 – 03/01/2021</b></li>
+								<li><b>Position:</b> Manager</li>
+								<li>
+									<b>Description:</b>
+									<ul>
+										<li>
+											Providing high-quality customer, both in person and
+											remotely via our Customer Service Channel.
+										</li>
+										<li>
+											Preparing monthly reports that capture expenses and
+											spending in a systematic and effective way that enables
+											reusability and easy maintenance.
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="section" id="project">
+					<hr />
+					<h2>Projects</h2>
+					<hr />
+					<div
+						id="projectCarousel"
+						class="carousel slide"
+						data-bs-touch="false"
 					>
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
-					</button>
-					<button
-						class="carousel-control-next"
-						type="button"
-						data-bs-target="#projectCarousel"
-						data-bs-slide="next"
-					>
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
-					</button>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<a
+									class="text-decoration-none"
+									href="https://github.com/NathanBuiPDX/CS410-Final-Project"
+									target="_blank"
+								>
+									<img
+										src="./images/chat-app.jpg"
+										class="d-block w-100"
+										alt="instance web chat application from huu-tri bui"
+									/>
+									<div class="text-center text-dark">
+										<h4>Instance Chat Application</h4>
+										<p>
+											An application that operates on web browsers and allows
+											users to interact with each other in real time
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="carousel-item">
+								<a
+                                    class="text-decoration-none"
+									href="https://github.com/NathanBuiPDX/CS410-Final-Project"
+									target="_blank"
+								>
+									<img
+										src="./images/porfolio-picture.jpeg"
+										class="d-block w-100"
+										alt="porfolio web page from huu-tri bui"
+									/>
+									<div class="text-center text-dark">
+										<h4>Porforlio Web Page</h4>
+										<p>Modern porfolio/resume deployed to the internet.</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#projectCarousel"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#projectCarousel"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<div id="contact">
+					<hr />
+					<h2>Contact Me</h2>
+					<hr />
+					<form class="mt-5 mx-auto" id="submitForm">
+						<div class="form-group row mb-3">
+							<div class="col-12 col-md-3">
+								<label class="form-label mt-1" for="username">Username:</label>
+							</div>
+							<div class="col-12 col-md-9">
+								<input
+									type="text"
+									class="form-control"
+									id="username"
+									name="username"
+									placeholder="Your Name"
+								/>
+							</div>
+						</div>
+						<div class="form-group row mb-3">
+							<div class="col-12 col-md-3">
+								<label class="form-label mt-1" for="email">Email:</label>
+							</div>
+							<div class="col-12 col-md-9">
+								<input
+									type="email"
+									class="form-control"
+									id="email"
+									name="email"
+									placeholder="Example@email.com"
+								/>
+							</div>
+						</div>
+
+						<div class="form-group row mb-3">
+							<div class="col-12 col-md-3">
+								<label class="form-label mt-1" for="msg">Message Me:</label>
+							</div>
+							<div class="col-12 col-md-9">
+								<textarea
+									type="text"
+									class="form-control"
+									id="msg"
+									name="msg"
+								></textarea>
+							</div>
+						</div>
+
+						<div class="d-flex justify-content-center mb-3">
+							<button type="submit" class="btn btn-primary w-25 m-1">
+								Submit
+							</button>
+							<button type="reset" class="btn btn-secondary w-25 m-1">
+								Reset
+							</button>
+						</div>
+					</form>
 				</div>
 			</div>
-		</div>
+		</main>
 	</body>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
 		crossorigin="anonymous"
 	></script>
+	<script src="./scripts/main.js"></script>
 </html>
