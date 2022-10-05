@@ -16,8 +16,8 @@ form {
 }
 
 .border-right {
-    border-right: 1px solid rgba(128, 128, 128, 0.489);
-    visibility: hidden;
+    border:none;
+
 }
 
 @media (min-width: 768px) {
@@ -25,6 +25,6 @@ form {
     width: 700px;
     }
     .border-right {
-    visibility: visible;
+        border-right: 1px solid rgba(128, 128, 128, 0.489);
 }
 }
